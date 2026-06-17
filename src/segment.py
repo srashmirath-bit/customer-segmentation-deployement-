@@ -264,3 +264,4 @@ if __name__ == "__main__":
     }
     result = assign_segment(sample)
     print(f"Segment: {result['segment_name']} | Confidence: {result['confidence']:.2%}")
+# trigger
