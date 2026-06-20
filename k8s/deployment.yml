@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: customer-segmentation-app
-        image: 650708167965.dkr.ecr.ap-south-1.amazonaws.com/customer-segmentation:latest
+        image: 215675829031.dkr.ecr.ap-south-1.amazonaws.com/customer-segmentation:latest
         ports:
         - containerPort: 8501
         - containerPort: 8000
@@ -39,7 +39,7 @@ spec:
         - name: AWS_REGION
           value: "ap-south-1"
         - name: S3_BUCKET
-          value: "customer-segmentation-2026"
+          value: "customer-segmentations-2026"
         resources:
           requests:
             memory: "512Mi"

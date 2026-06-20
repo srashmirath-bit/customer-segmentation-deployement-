@@ -13,7 +13,7 @@ COPY src/ ./src/
 COPY .env.example .env
 
 ENV AWS_REGION=ap-south-1
-ENV S3_BUCKET=customer-segmentation-2026
+ENV S3_BUCKET=customer-segmentations-2026
 
 # ── FIX: Add /app/src to PYTHONPATH so imports work from any working directory
 ENV PYTHONPATH=/app/src

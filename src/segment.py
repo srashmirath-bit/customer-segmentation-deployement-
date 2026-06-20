@@ -22,7 +22,7 @@ load_dotenv()
 # ── AWS Configuration ──────────────────────────────────────────────────────
 AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY_ID")
 AWS_SECRET_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
-BUCKET         = os.getenv("S3_BUCKET", "customer-segmentation-2026")
+BUCKET         = os.getenv("S3_BUCKET", "customer-segmentations-2026")
 REGION         = os.getenv("AWS_REGION", "ap-south-1")
 
 # ── Segment Definitions ────────────────────────────────────────────────────
